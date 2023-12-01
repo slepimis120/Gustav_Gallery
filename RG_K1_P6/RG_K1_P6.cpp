@@ -393,6 +393,7 @@ int main(void)
 
         if (isLine) {
             glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+            glLineWidth(4);
         }
         else if (isPoint) {
             glPolygonMode(GL_FRONT_AND_BACK, GL_POINT);
